@@ -22,3 +22,7 @@ A growing collection of original artwork presented through a clean, minimalist p
 * Refine existing artwork
 * Replace older work with stronger examples
 * Maintain consistent image quality
+
+---
+
+Designed to evolve through steady refinement.
