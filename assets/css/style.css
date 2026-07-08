@@ -1,19 +1,13 @@
 /* ==========================================================
-   WYRLIGHT DESIGN SYSTEM
-   Version: 2.0
-
-   Shared stylesheet for:
-   • wyrlight.com
-   • Wyrlight Portfolio
-
-   Philosophy:
-   Minimal, lightweight, readable and maintainable.
-   ========================================================== */
+   WYRLIGHT PORTFOLIO
+   Style Sheet
+   Revision 1.0
+========================================================== */
 
 
 /* ==========================================================
    RESET
-   ========================================================== */
+========================================================== */
 
 * {
     margin: 0;
@@ -21,406 +15,539 @@
     box-sizing: border-box;
 }
 
+
+/* ==========================================================
+   GLOBAL
+========================================================== */
+
 html,
 body {
-    background: #FFFFFF;
+
+    background: #F5F5F5;
     color: #2A4960;
+
     font-family: system-ui, sans-serif;
     line-height: 1.6;
+
+}
+
+img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+
+a {
+
+    color: #2A4960;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    opacity: .80;
+
 }
 
 
 /* ==========================================================
-   LAYOUT
-   ========================================================== */
+   FULL WIDTH SEPARATORS
+========================================================== */
 
 .full-separator {
-    border: none;
-    border-top: 1px solid #F5F5F5;
+
     width: 100vw;
+
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
-    margin-top: 0;
-    margin-bottom: 0;
+
+    border: none;
+    border-top: 1px solid #E5E5E5;
+
 }
+
+
+/* ==========================================================
+   PAGE WRAPPER
+========================================================== */
 
 .page-wrapper {
+
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-}
 
-.gallery-container {
-    max-width: 1200px;
     margin: 0 auto;
+
 }
 
 
 /* ==========================================================
    HEADER
-   ========================================================== */
+========================================================== */
 
 header {
-    width: 100%;
-    background: #FFFFFF;
+
+    background: #F5F5F5;
+
 }
 
 .header-inner {
+
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+
     padding: 24px 0;
+
 }
 
 
 /* ==========================================================
    LOGO
-   ========================================================== */
+========================================================== */
 
 .logo img {
+
     width: 90px;
     height: 90px;
-    display: block;
+
 }
 
 
 /* ==========================================================
    NAVIGATION
-   ========================================================== */
+========================================================== */
 
-header nav {
+nav {
+
     display: flex;
-    align-items: center;
     gap: 28px;
+
 }
 
-header nav a {
-    text-decoration: none;
-    color: #2A4960;
-    font-weight: 600;
+nav a {
+
     font-size: 18px;
-    white-space: nowrap;
+    font-weight: 600;
+
 }
 
 
 /* ==========================================================
    MAIN
-   ========================================================== */
+========================================================== */
 
 main {
-    padding: 32px 0 48px 0;
+
+    padding: 36px 0 60px;
+
 }
 
 
 /* ==========================================================
    PAGE TITLE
-   Used on:
-   • Home
-   • Portfolio
-   • Vector
-   • Graphic
-   • Workflow
-   • About
-   ========================================================== */
+========================================================== */
 
 .page-title {
+
     text-align: center;
-    padding: 20px 20px 10px 20px;
-    font-size: 30px;
+
+    font-size: 32px;
     font-weight: 600;
-}
 
+    margin-bottom: 18px;
 
-/* ==========================================================
-   HERO
-   ========================================================== */
-
-.hero {
-    text-align: center;
-    margin: 12px 0 20px 0;
-}
-
-.hero img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 
 /* ==========================================================
    INTRO
-   ========================================================== */
+========================================================== */
 
 .intro {
-    text-align: center;
-    padding: 8px 20px 12px 20px;
-    font-size: 18px;
-    font-weight: 600;
+
     max-width: 720px;
+
+    margin: 0 auto 32px;
+
+    text-align: center;
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+/* ==========================================================
+   HERO
+========================================================== */
+
+.hero {
+
+    margin: 24px 0 40px;
+
+}
+
+.hero img {
+
+    width: 280px;
+
     margin: 0 auto;
+
 }
 
 
 /* ==========================================================
-   INFO PAGE
-   ========================================================== */
+   CONTENT SECTIONS
+========================================================== */
 
-.info-wrapper {
-    max-width: 620px;
-    margin: 60px auto 80px auto;
-    text-align: center;
-    padding: 0 20px;
-}
+section {
 
-.info-title {
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
+    padding: 42px 0;
 
-.info-text {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.65;
-    max-width: 620px;
-    margin: 0 auto 45px auto;
 }
 
 
 /* ==========================================================
-   PORTFOLIO BUTTON
-   ========================================================== */
+   SECTION TITLES
+========================================================== */
 
-.portfolio-block {
+.section-title {
+
     text-align: center;
-    margin: 20px 0 32px 0;
-}
 
-.portfolio-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 36px;
-    background: #2A4960;
-    color: #FFFFFF;
-    text-decoration: none;
+    font-size: 28px;
     font-weight: 600;
-    font-size: 18px;
-    border-radius: 999px;
-    line-height: 1;
-    height: 48px;
-    transition: opacity 0.2s ease;
+
+    margin-bottom: 30px;
+
 }
 
-.portfolio-button:hover {
-    opacity: 0.85;
-}
 
+/* ==========================================================
+   COLLECTION TITLES
+========================================================== */
+
+.collection-title {
+
+    font-size: 22px;
+    font-weight: 600;
+
+    margin-bottom: 20px;
+    margin-top: 24px;
+
+}
 
 /* ==========================================================
    GALLERY GRID
-   ========================================================== */
+========================================================== */
 
 .gallery-grid {
+
     display: grid;
+
     grid-template-columns: repeat(4, 1fr);
+
     gap: 24px;
-    padding: 16px 0 40px 0;
+
+    margin-bottom: 36px;
+
 }
 
 .gallery-grid img {
+
     width: 100%;
-    height: auto;
+
     border-radius: 6px;
-    display: block;
+
+    transition: opacity .20s ease;
+
 }
 
+.gallery-grid img:hover {
 
-/* ==========================================================
-   FUTURE PORTFOLIO SECTIONS
+    opacity: .90;
 
-   Reserved for:
-   • Collections
-   • Project Cards
-   • Workflow
-   • Project Details
-   ========================================================== */
-
+}
 
 
 /* ==========================================================
    FOOTER
-   ========================================================== */
+========================================================== */
 
 footer {
-    margin-top: 32px;
-    padding: 24px 0 18px 0;
-    text-align: center;
+
     position: relative;
+
+    text-align: center;
+
+    padding: 28px 0 18px;
+
 }
 
 footer::before {
+
     content: "";
+
     position: absolute;
+
     top: 0;
     left: 50%;
+
     width: 100vw;
+
     margin-left: -50vw;
-    border-top: 1px solid #F5F5F5;
+
+    border-top: 1px solid #E5E5E5;
+
 }
 
+
+/* ==========================================================
+   FOOTER NAVIGATION
+========================================================== */
+
 .footer-nav-block {
-    padding-bottom: 12px;
-    margin-bottom: 12px;
+
     position: relative;
+
+    padding-bottom: 14px;
+
+    margin-bottom: 14px;
+
 }
 
 .footer-nav-block::after {
+
     content: "";
+
     position: absolute;
+
     bottom: 0;
     left: 50%;
+
     width: 100vw;
+
     margin-left: -50vw;
-    border-bottom: 1px solid #F5F5F5;
+
+    border-bottom: 1px solid #E5E5E5;
+
 }
 
 .footer-nav-block a {
+
     margin: 0 10px;
-    text-decoration: none;
-    color: #2A4960;
-    font-weight: 600;
+
     font-size: 16px;
-    white-space: nowrap;
+    font-weight: 600;
+
 }
 
+
+/* ==========================================================
+   FOOTER SOCIAL
+========================================================== */
+
 .footer-social {
-    margin-top: 8px;
+
+    margin-top: 10px;
+
     font-size: 14px;
     font-weight: 600;
+
 }
 
 .footer-social a {
-    text-decoration: none;
-    color: #2A4960;
+
     margin: 0 6px;
-    white-space: nowrap;
+
 }
 
+
+/* ==========================================================
+   COPYRIGHT
+========================================================== */
+
 .footer-copy {
-    margin-top: 4px;
+
+    margin-top: 8px;
+
     font-size: 13px;
+
 }
 
 
 /* ==========================================================
    MOBILE
-   ========================================================== */
+========================================================== */
 
 @media (max-width: 768px) {
 
-    .page-wrapper {
-        max-width: 100%;
-        padding: 0 16px;
-    }
 
-    .header-inner {
-        flex-direction: column;
-        gap: 10px;
-        padding: 16px 0 10px 0;
-    }
+/* ---------- PAGE ---------- */
 
-    .logo img {
-        width: 70px;
-        height: 70px;
-    }
+.page-wrapper {
 
-    header nav {
-        justify-content: center;
-        gap: 8px;
-        flex-wrap: nowrap;
-    }
+    padding: 0 16px;
 
-    header nav a {
-        font-size: 14px;
-        margin: 0 2px;
-    }
-
-    main {
-        padding: 20px 0 28px 0;
-    }
-
-    .page-title {
-        font-size: 20px;
-        line-height: 1.25;
-        padding: 12px 8px 8px 8px;
-    }
-
-    .hero {
-        margin: 8px 0 14px 0;
-    }
-
-    .hero img {
-        max-width: 240px;
-    }
-
-    .intro {
-        font-size: 15px;
-        padding: 6px 4px 8px 4px;
-    }
-
-    .portfolio-block {
-        margin: 16px 0 22px 0;
-    }
-
-    .portfolio-button {
-        font-size: 15px;
-        padding: 10px 22px;
-    }
-
-    .gallery-grid {
-        grid-template-columns: 1fr;
-        gap: 16px;
-        padding: 12px 0 28px 0;
-    }
-
-    .info-wrapper {
-        max-width: 100%;
-        margin: 40px auto 60px auto;
-        padding: 0 16px;
-    }
-
-    .info-title {
-        font-size: 20px;
-        margin-bottom: 18px;
-    }
-
-    .info-text {
-        font-size: 15px;
-        line-height: 1.45;
-        margin-bottom: 40px;
-    }
-
-    .footer-social {
-        margin-top: 6px;
-        line-height: 1.4;
-        font-size: 13px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 6px 10px;
-    }
-
-    .footer-social a[href^="mailto"] {
-        flex-basis: 100%;
-        text-align: center;
-        margin-top: 4px;
-    }
-
-    .footer-copy {
-        margin-top: 10px;
-        font-size: 12px;
-    }
 }
+
+
+/* ---------- HEADER ---------- */
+
+.header-inner {
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    padding: 18px 0;
+
+}
+
+.logo img {
+
+    width: 72px;
+    height: 72px;
+
+}
+
+nav {
+
+    gap: 14px;
+
+}
+
+nav a {
+
+    font-size: 14px;
+
+}
+
+
+/* ---------- MAIN ---------- */
+
+main {
+
+    padding: 26px 0 36px;
+
+}
+
+.page-title {
+
+    font-size: 24px;
+
+}
+
+.intro {
+
+    font-size: 16px;
+
+    margin-bottom: 24px;
+
+}
+
+.hero {
+
+    margin: 18px 0 30px;
+
+}
+
+.hero img {
+
+    width: 220px;
+
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+section {
+
+    padding: 32px 0;
+
+}
+
+.section-title {
+
+    font-size: 22px;
+
+    margin-bottom: 24px;
+
+}
+
+.collection-title {
+
+    font-size: 18px;
+
+    margin-bottom: 14px;
+
+}
+
+
+/* ---------- GALLERY ---------- */
+
+.gallery-grid {
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 16px;
+
+    margin-bottom: 24px;
+
+}
+
+
+/* ---------- FOOTER ---------- */
+
+.footer-nav-block a {
+
+    display: inline-block;
+
+    margin: 4px 8px;
+
+}
+
+.footer-social {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    line-height: 1.5;
+
+}
+
+.footer-social a[href^="mailto"] {
+
+    flex-basis: 100%;
+
+}
+
+.footer-copy {
+
+    margin-top: 12px;
+
+    font-size: 12px;
+
+}
+
+}
+
+/* ==========================================================
+   END OF FILE
+
+   Wyrlight Portfolio
+   Style Sheet
+
+   Revision 1.0
+
+========================================================== */
