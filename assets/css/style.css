@@ -357,14 +357,18 @@ footer::before {
 
     margin-top: 10px;
 
-    font-size: 14px;
+    font-size: 18px;      /* enne 14px */
     font-weight: 600;
 
 }
 
 .footer-social a {
 
-    margin: 0 6px;
+    text-decoration: none;
+
+    color: #2A4960;
+
+    margin: 0 8px;
 
 }
 
@@ -377,7 +381,7 @@ footer::before {
 
     margin-top: 8px;
 
-    font-size: 13px;
+    font-size: 17px;      /* enne 13px */
 
 }
 
