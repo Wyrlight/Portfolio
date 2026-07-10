@@ -1,56 +1,41 @@
 # Wyrlight Portfolio
 
-A curated portfolio of original minimalist vector graphics and graphic artwork created by Wyrlight.
+A curated portfolio showcasing original minimalist vector graphics and graphic artwork created by Wyrlight.
 
-## About
+The collection focuses on clean geometric design, Nordic-inspired aesthetics and artwork prepared for professional digital and print applications.
 
-Wyrlight is an independent design studio focused on clean, minimalist visual design inspired by Nordic aesthetics.
+## Featured Collections
 
-The portfolio showcases selected examples of:
+### Vector Graphics
 
-- Original SVG vector graphics
-- Graphic artwork
-- Print-on-demand design workflow
-- Minimalist visual identity
+- Fishing
+- Camping
 
-## Project Structure
+Original vector graphics are created manually using Inkscape and optimized for scalability, consistency and clean visual structure.
 
-```
-assets/
-│
-├── css/
-├── img/
-│   ├── favicon/
-│   ├── graphic/
-│   ├── hero/
-│   ├── logo/
-│   ├── og/
-│   ├── thumbnails/
-│   └── vector/
-│
-├── svg/
-└── docs/
-```
+### Graphic Artwork
 
-## Technologies
-
-- HTML5
-- CSS3
-- SVG
-- WebP
+Selected graphic artwork refined for print-on-demand production, combining original composition, color refinement and production workflow.
 
 ## Design Principles
 
-- Minimalism
-- Responsive layout
-- Fast loading
-- Accessibility
-- Clean semantic HTML
+- Original creative work
+- Minimalist visual language
+- Nordic-inspired aesthetics
+- Scalable vector graphics
+- Professional print workflow
+- Long-term consistency
 
-## Website
+## Official Website
 
-https://wyrlight.com
+https://wyrlight.com/
 
----
+## Portfolio
+
+https://wyrlight.com/portfolio/
+
+## Contact
+
+info@wyrlight.com
 
 © Wyrlight
