@@ -277,6 +277,52 @@ section {
 
 
 /* ==========================================================
+   BUTTONS
+========================================================== */
+
+.portfolio-block {
+
+    text-align: center;
+
+    margin: 28px 0 12px;
+
+}
+
+.portfolio-button {
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 36px;
+
+    background: #2A4960;
+    color: #FFFFFF;
+
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    line-height: 1;
+
+    height: 48px;
+
+    border-radius: 999px;
+
+    transition: opacity .20s ease;
+
+}
+
+.portfolio-button:hover {
+
+    opacity: .85;
+
+}
+
+
+/* ==========================================================
    FOOTER
 ========================================================== */
 
