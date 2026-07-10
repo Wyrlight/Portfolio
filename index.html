@@ -20,6 +20,26 @@
     <meta name="theme-color" content="#F5F5F5">
 
     <!-- ==========================================================
+         CANONICAL
+    =========================================================== -->
+
+    <link rel="canonical" href="https://wyrlight.com/portfolio/">
+
+    <!-- ==========================================================
+         OPEN GRAPH
+    =========================================================== -->
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Wyrlight">
+    <meta property="og:title" content="Wyrlight Portfolio | Original Minimalist Vector Graphics & Graphic Artwork">
+    <meta property="og:description" content="Explore original minimalist vector graphics and graphic artwork by Wyrlight.">
+    <meta property="og:url" content="https://wyrlight.com/portfolio/">
+    <meta property="og:image" content="https://wyrlight.com/portfolio/assets/img/og/wyrlight-og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Wyrlight Portfolio preview">
+
+    <!-- ==========================================================
          FAVICON
     =========================================================== -->
 
@@ -31,6 +51,51 @@
     =========================================================== -->
 
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- ==========================================================
+         SCHEMA.ORG
+    =========================================================== -->
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://wyrlight.com/#organization",
+      "name": "Wyrlight",
+      "url": "https://wyrlight.com/",
+      "logo": "https://wyrlight.com/assets/img/logo/wyrlight-logo.svg",
+      "description": "Independent minimalist design studio creating original vector graphics, graphic artwork and print-on-demand designs inspired by Nordic aesthetics.",
+      "sameAs": [
+        "https://github.com/Wyrlight/Wyrlight",
+        "https://github.com/Wyrlight/Portfolio",
+        "https://www.facebook.com/Wyrlight",
+        "https://www.pinterest.com/Wyrlight",
+        "https://www.instagram.com/Wyrlight",
+        "https://codepen.io/WyrlightStudio"
+      ]
+    },
+
+    {
+      "@type": "CollectionPage",
+      "@id": "https://wyrlight.com/portfolio/#portfolio",
+      "url": "https://wyrlight.com/portfolio/",
+      "name": "Wyrlight Portfolio",
+      "description": "Official portfolio featuring original minimalist vector graphics and graphic artwork created by Wyrlight.",
+      "isPartOf": {
+        "@id": "https://wyrlight.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://wyrlight.com/#organization"
+      },
+      "inLanguage": "en"
+    }
+
+  ]
+}
+    </script>
 
 </head>
 
