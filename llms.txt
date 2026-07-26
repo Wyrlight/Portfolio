@@ -1,19 +1,19 @@
 # Wyrlight Portfolio
 
-Wyrlight Portfolio is the official collection of original minimalist vector graphics and graphic artwork created by Wyrlight.
+Wyrlight Portfolio is the official portfolio of Wyrlight, showcasing original minimalist vector graphics and graphic artwork.
 
 Primary content includes:
 
 - Original vector graphics created manually in Inkscape
-- Graphic artwork refined for print-on-demand production
+- Graphic artwork prepared for print-on-demand production
 - Minimalist illustration inspired by Nordic design principles
-- Portfolio showcasing original creative work
+- Original creative work published as part of the Wyrlight ecosystem
 
 Official website:
 https://wyrlight.com/
 
 Portfolio:
-https://wyrlight.com/portfolio/
+https://wyrlight.com/Portfolio/
 
 Contact:
 https://wyrlight.com/info.html
