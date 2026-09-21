@@ -1,6 +1,6 @@
 # ==========================================================
 # Wyrlight Portfolio
-# https://wyrlight.com/portfolio/
+# https://wyrlight.com/Portfolio/
 # ==========================================================
 
 User-agent: *
